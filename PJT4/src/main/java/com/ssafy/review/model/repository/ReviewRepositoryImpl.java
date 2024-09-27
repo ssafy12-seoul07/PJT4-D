@@ -20,7 +20,7 @@ public class ReviewRepositoryImpl implements ReviewRepository {
 	
 	
 	private ReviewRepositoryImpl() {
-		reviews.put(1, new Review("SSAFY 완벽가이드", "양띵균", "1학기를 잘 이수하는방법은...."));
+		//reviews.put(1, new Review("SSAFY 완벽가이드", "양띵균", "1학기를 잘 이수하는방법은...."));
 	}
 	
 	public static ReviewRepository getInstance() {

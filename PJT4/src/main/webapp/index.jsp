@@ -7,13 +7,19 @@
     <title>운동 영상 메인 페이지</title>
     <style>
         /* 기존 스타일 유지 */
+		@font-face {
+		    font-family: 'TheJamsil5Bold';
+		    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+		    font-weight: 700;
+		    font-style: normal;
+		}
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'TheJamsil5Bold';
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
         }
-
+		
         .navbar {
             background-color: #333;
             overflow: hidden;
@@ -31,6 +37,7 @@
         .navbar a:hover {
             background-color: #ddd;
             color: black;
+            text-decoration: none;
         }
 
         .container {
@@ -71,6 +78,7 @@
         }
 
         .body-part-buttons button {
+            font-family: 'TheJamsil5Bold';
             margin: 5px;
             padding: 10px 20px;
             background-color: #333;
@@ -89,19 +97,8 @@
             background-color: #333;
             color: white;
             border: none;
-            cursor: pointer;
             transition: background-color 0.3s ease;
-        }
-
-        a:hover {
-            color: #0056b3;
-            text-decoration: underline;
-        }
-
-        a:focus {
-            color: #003f7f;
-            outline: none;
-            text-decoration: underline;
+            text-decoration: none;
         }
     </style>
 </head>

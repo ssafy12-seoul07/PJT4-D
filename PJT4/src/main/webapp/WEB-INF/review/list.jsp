@@ -7,10 +7,23 @@
 <meta charset="UTF-8">
 <title>리뷰 목록</title>
 <style>
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
 
 	.navbar {
-        background-color: #333;
-        overflow: hidden;
+            background-color: #333;
+    overflow: hidden;
+    width: 100%;  /* 가로 전체 차지 */
+    margin: 0;  /* 여백 제거 */
+    padding: 0; /* 여백 제거 */
+    position: fixed;  /* 네비게이션바를 고정 */
+    top: 0;
+    left: 0;
+
     }
 
     .navbar a {
@@ -28,8 +41,9 @@
     }
     
     body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
+        font-family: 'TheJamsil5Bold', Arial, sans-serif;
+     margin: 20px;
+    padding-top: 60px;  /* 네비게이션바 높이만큼 패딩 추가 */
     }
     table {
         width: 80%;
